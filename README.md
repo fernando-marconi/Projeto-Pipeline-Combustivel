@@ -40,4 +40,9 @@ O pipeline executa transformações incrementais em cada camada, elevando a qual
     * **Feature Engineering:** Separação das colunas `ano`, `mes` e `dia`, e criação do campo `regiao` com o nome por extenso, a partir da sigla.
 * **Saída:** O resultado final, totalmente modelado e sumarizado, é exportado para o formato **Parquet** (`analitico_dados_combustivel.parquet`) e salvo no diretório `Ouro/`.
 
+### Visualização da Camada Ouro
+Abaixo está a evolução do preço médio nacional de venda para os principais produtos, demonstrando a prontidão dos dados para análise.
+
+![Evolução do Preço Médio Nacional de Venda](grafico/evolucao_valor_medio_venda.png)
+
 ---
